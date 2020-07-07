@@ -15,7 +15,8 @@ body .container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 50% auto auto;
+  margin: auto;
+  height: 100vh;
 }
 body .container h1 {
   color: white;
@@ -23,6 +24,7 @@ body .container h1 {
   font-size: 45px;
   font-weight: 100;
   line-height: 50px;
+  padding-top: 15%;
 }
 body .container small {
   font-family: "Dancing Script", cursive;
@@ -34,7 +36,7 @@ body .container .play {
   border: 3px solid #FFBF00;
   border-radius: 15px;
   display: flex;
-  margin: auto;
+  margin: 15% auto;
   justify-content: center;
 }
 body .container .play .item {
@@ -82,7 +84,7 @@ body .container .buttons button {
   border: none;
   width: 50%;
   text-align: center;
-  margin: auto;
+  margin: auto auto 15px;
   padding: 15px;
   border-radius: 15px;
   font-weight: bold;
@@ -92,7 +94,7 @@ body .container .buttons button {
   font-size: 25px;
 }
 body .container .buttons button:first-child {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,7 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 50% auto auto;
+    margin: auto;
+    height: 100vh;
 
     h1 {
       color: white;
@@ -23,6 +24,7 @@ body {
       font-size: 45px;
       font-weight: 100;
       line-height: 50px;
+      padding-top: 15%;
     }
     small {
       font-family: 'Dancing Script', cursive;
@@ -35,7 +37,7 @@ body {
       border: 3px solid #FFBF00;
       border-radius: 15px;
       display: flex;
-      margin: auto;
+      margin: 15% auto;
       justify-content: center;
 
       .item {
@@ -87,7 +89,7 @@ body {
         border: none;
         width: 50%;
         text-align: center;
-        margin: auto;
+        margin: auto auto 15px;
         padding: 15px;
         border-radius: 15px;
         font-weight: bold;
@@ -97,7 +99,7 @@ body {
         font-size: 25px;
 
         &:first-child {
-          margin-right: 5px;
+          margin-right: 10px;
         }
       }
     }
